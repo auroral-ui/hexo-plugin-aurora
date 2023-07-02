@@ -1,0 +1,28 @@
+{
+  "name": "hexo-plugin-aurora",
+  "version": "0.0.0-semantic-release",
+  "description": "A plugin for Hexo Aurora theme",
+  "main": "index.js",
+  "keywords": [
+    "hexo",
+    "hexo-theme-aurora",
+    "hexo-plugin"
+  ],
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "author": "bennyxguo<bennyxguo@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "app-root-path": "^3.1.0",
+    "chalk": "^4",
+    "hexo-pagination": "^3.0.0",
+    "hexo-util": "^3.0.1",
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.6",
+    "@commitlint/config-conventional": "^17.6.6",
+    "husky": "^8.0.3"
+  }
+}
