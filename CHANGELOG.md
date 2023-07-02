@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/auroral-ui/hexo-plugin-aurora/compare/v1.0.0...v1.0.1) (2023-07-02)
+
+
+### Bug Fixes
+
+* removed unccessary files publishing to npm ([2637c38](https://github.com/auroral-ui/hexo-plugin-aurora/commit/2637c3824e680ab20c5135833f2a2670f7d0b085))
+
 # 1.0.0 (2023-07-02)
 
 
