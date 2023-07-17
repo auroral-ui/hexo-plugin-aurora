@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/auroral-ui/hexo-plugin-aurora/compare/v1.0.1...v1.0.2) (2023-07-17)
+
+
+### Bug Fixes
+
+* multiple author not generated correctly ([521c671](https://github.com/auroral-ui/hexo-plugin-aurora/commit/521c671cc89ff5e9f90170e76833fdc6b28bc58f))
+
 ## [1.0.1](https://github.com/auroral-ui/hexo-plugin-aurora/compare/v1.0.0...v1.0.1) (2023-07-02)
 
 
