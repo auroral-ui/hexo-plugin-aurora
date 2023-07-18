@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/auroral-ui/hexo-plugin-aurora/compare/v1.0.2...v1.1.0) (2023-07-18)
+
+
+### Features
+
+* add custom abstracts meta feature support ([83af58e](https://github.com/auroral-ui/hexo-plugin-aurora/commit/83af58e6d7458538a824f37e13f1b35d4540b606))
+
 ## [1.0.2](https://github.com/auroral-ui/hexo-plugin-aurora/compare/v1.0.1...v1.0.2) (2023-07-17)
 
 
