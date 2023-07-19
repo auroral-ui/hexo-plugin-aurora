@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/auroral-ui/hexo-plugin-aurora/compare/v1.1.0...v1.1.1) (2023-07-19)
+
+
+### Bug Fixes
+
+* abstracts not generated correctly ([656ab3b](https://github.com/auroral-ui/hexo-plugin-aurora/commit/656ab3be21eff4141eef0e2a7acc90047a28a08d))
+
 # [1.1.0](https://github.com/auroral-ui/hexo-plugin-aurora/compare/v1.0.2...v1.1.0) (2023-07-18)
 
 
