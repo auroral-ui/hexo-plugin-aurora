@@ -18,4 +18,4 @@ plugins:
     - <link rel="stylesheet" href="https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/gitalk/1.8.0/gitalk.min.css"/>
   valine:
     - <script rel="preload" src="https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/valine/1.5.1/Valine.min.js"></script>
-    # - <script rel="preload" src="https://cdn.jsdelivr.net/npm/leancloud-storage@4.10.0/dist/av-min.js"></script>
+    - <script rel="preload" src="https://cdn.jsdelivr.net/npm/leancloud-storage@latest/dist/av-min.js"></script>
