@@ -1,3 +1,16 @@
+# [1.2.0](https://github.com/auroral-ui/hexo-plugin-aurora/compare/v1.1.1...v1.2.0) (2023-07-25)
+
+
+### Bug Fixes
+
+* add back leancloud script and fixed valine script ([2d53a5f](https://github.com/auroral-ui/hexo-plugin-aurora/commit/2d53a5fb4106db89e6b50f2c50535f9c3873b8ea))
+* missing truncate-html package dependencies ([44f7f50](https://github.com/auroral-ui/hexo-plugin-aurora/commit/44f7f50872c1301133697dd483a4b83b3efe3df7))
+
+
+### Features
+
+* updated all cdn packages to latest version ([5055c52](https://github.com/auroral-ui/hexo-plugin-aurora/commit/5055c5251f79fbb33da9aa2ab5b2a6b0d72b2e1f))
+
 ## [1.1.1](https://github.com/auroral-ui/hexo-plugin-aurora/compare/v1.1.0...v1.1.1) (2023-07-19)
 
 
