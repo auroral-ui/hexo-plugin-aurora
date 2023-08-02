@@ -1,3 +1,15 @@
+# [1.3.0](https://github.com/auroral-ui/hexo-plugin-aurora/compare/v1.2.0...v1.3.0) (2023-08-02)
+
+
+### Bug Fixes
+
+* generation fail with no tags [#1](https://github.com/auroral-ui/hexo-plugin-aurora/issues/1) ([3b17b95](https://github.com/auroral-ui/hexo-plugin-aurora/commit/3b17b9534ae40c1358e6d2f88a8fa3c895a5cc11))
+
+
+### Features
+
+* add twikoo and waline scripts ([097603a](https://github.com/auroral-ui/hexo-plugin-aurora/commit/097603ac16299cc8ebc0cc99b6b8c6ddada27c3b))
+
 # [1.2.0](https://github.com/auroral-ui/hexo-plugin-aurora/compare/v1.1.1...v1.2.0) (2023-07-25)
 
 
