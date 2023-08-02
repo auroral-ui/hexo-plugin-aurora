@@ -19,3 +19,7 @@ plugins:
   valine:
     - <script rel="preload" src="https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/valine/1.5.1/Valine.min.js"></script>
     - <script rel="preload" src="https://cdn.jsdelivr.net/npm/leancloud-storage@latest/dist/av-min.js"></script>
+  twikoo:
+    - <script rel="preload" src="https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/twikoo/1.6.17/twikoo.all.min.js"></script>
+  waline:
+   - <link rel="stylesheet" href="https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/waline/2.15.5/waline.min.css"/>
