@@ -1,3 +1,12 @@
+## [1.3.1](https://github.com/auroral-ui/hexo-plugin-aurora/compare/v1.3.0...v1.3.1) (2023-08-03)
+
+
+### Bug Fixes
+
+* add site.language missing error console ([342c969](https://github.com/auroral-ui/hexo-plugin-aurora/commit/342c96971922b4e9804e2eee36ee7c294e1460c3))
+* plugin fails if some comment plugin is not configured ([32a1c02](https://github.com/auroral-ui/hexo-plugin-aurora/commit/32a1c0231c60a6d05707869fc8c9560356079233))
+* version now fetch from package fallback to theme folder ([63aeda1](https://github.com/auroral-ui/hexo-plugin-aurora/commit/63aeda182868c4746a5d1a26a965cca25ee56f58))
+
 # [1.3.0](https://github.com/auroral-ui/hexo-plugin-aurora/compare/v1.2.0...v1.3.0) (2023-08-02)
 
 
