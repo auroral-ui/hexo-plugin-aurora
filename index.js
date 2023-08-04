@@ -1,22 +1,22 @@
-const chalk = require('chalk');
 const appRoot = require('app-root-path');
-const { throwError, throwInfo } = require('./lib/helpers/utils');
+const chalk = require('chalk');
 const pluginPack = require('./package.json');
+const { throwInfo, throwError } = require('./lib/helpers/utils');
 require('./lib/filters')(hexo);
 require('./lib/generators')(hexo);
 require('./lib/injector')(hexo);
 
-var pack;
+var themePack;
 
 try {
-  pack = require(appRoot + '/node_modules/hexo-theme-aurora/package.json');
+  themePack = require(appRoot + '/node_modules/hexo-theme-aurora/package.json');
 } catch (error) {
   throwInfo(
     'Aurora Plugin',
     `Aurora Plugin fail to get current Aurora Theme version from package location, trying to get from themes folder instead...`
   );
   try {
-    pack = require(appRoot + '/themes/hexo-theme-aurora/package.json');
+    themePack = require(appRoot + '/themes/aurora/package.json');
   } catch (error) {
     throwError(
       'Aurora Plugin Error',
@@ -43,7 +43,7 @@ hexo.on('exit', function () {
       chalk.magenta(' v' + pluginPack.version) +
       ' & ' +
       chalk.cyan.bold('hexo-theme-aurora') +
-      chalk.magenta(' v' + pack.version)
+      chalk.magenta(' v' + themePack.version)
   );
   console.log(chalk.green('INFO  ') + 'Crafted by ' + chalk.cyan.bold('bennyxguo <三钻>'));
 });
