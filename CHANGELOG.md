@@ -1,3 +1,10 @@
+## [1.3.3](https://github.com/auroral-ui/hexo-plugin-aurora/compare/v1.3.2...v1.3.3) (2023-08-04)
+
+
+### Bug Fixes
+
+* package version reading path for themes folder ([91d510e](https://github.com/auroral-ui/hexo-plugin-aurora/commit/91d510ed9c6f29ca877a57eb59692360e9712575))
+
 ## [1.3.2](https://github.com/auroral-ui/hexo-plugin-aurora/compare/v1.3.1...v1.3.2) (2023-08-04)
 
 
