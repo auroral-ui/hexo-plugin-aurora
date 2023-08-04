@@ -1,3 +1,10 @@
+## [1.3.2](https://github.com/auroral-ui/hexo-plugin-aurora/compare/v1.3.1...v1.3.2) (2023-08-04)
+
+
+### Bug Fixes
+
+* dynamic pack version require for the plugin ([9021007](https://github.com/auroral-ui/hexo-plugin-aurora/commit/90210076cc14bc68c10845b903d632eea30f86ba))
+
 ## [1.3.1](https://github.com/auroral-ui/hexo-plugin-aurora/compare/v1.3.0...v1.3.1) (2023-08-03)
 
 
