@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/auroral-ui/hexo-plugin-aurora/compare/v1.3.3...v1.4.0) (2023-08-09)
+
+
+### Features
+
+* add friends link generator ([4a07ab0](https://github.com/auroral-ui/hexo-plugin-aurora/commit/4a07ab0b0ba001bd1d6b0cd2bf90bc44a080483f))
+
 ## [1.3.3](https://github.com/auroral-ui/hexo-plugin-aurora/compare/v1.3.2...v1.3.3) (2023-08-04)
 
 
