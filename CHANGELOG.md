@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/auroral-ui/hexo-plugin-aurora/compare/v1.4.0...v1.4.1) (2023-08-09)
+
+
+### Bug Fixes
+
+* fix links page index.html not being generated ([eaaa4ea](https://github.com/auroral-ui/hexo-plugin-aurora/commit/eaaa4ea5d724092c8d07bfb868abeb01467bb7a1))
+
 # [1.4.0](https://github.com/auroral-ui/hexo-plugin-aurora/compare/v1.3.3...v1.4.0) (2023-08-09)
 
 
