@@ -1,3 +1,10 @@
+## [1.4.2](https://github.com/auroral-ui/hexo-plugin-aurora/compare/v1.4.1...v1.4.2) (2023-08-10)
+
+
+### Bug Fixes
+
+* removed privacy data from site config ([d26e57a](https://github.com/auroral-ui/hexo-plugin-aurora/commit/d26e57a4edf11d8b7666c94f42b9ae294b52a517))
+
 ## [1.4.1](https://github.com/auroral-ui/hexo-plugin-aurora/compare/v1.4.0...v1.4.1) (2023-08-09)
 
 
