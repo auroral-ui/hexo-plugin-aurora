@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/auroral-ui/hexo-plugin-aurora/compare/v1.4.2...v1.5.0) (2023-08-11)
+
+
+### Features
+
+* changed default post abstract length to 80 ([b2575b0](https://github.com/auroral-ui/hexo-plugin-aurora/commit/b2575b00d179a295bee24b4e9fb0b9fda106010a))
+
 ## [1.4.2](https://github.com/auroral-ui/hexo-plugin-aurora/compare/v1.4.1...v1.4.2) (2023-08-10)
 
 
