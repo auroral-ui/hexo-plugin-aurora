@@ -1,3 +1,11 @@
+# [1.6.0](https://github.com/auroral-ui/hexo-plugin-aurora/compare/v1.5.0...v1.6.0) (2023-08-15)
+
+
+### Features
+
+* add hidden post feature ([b9ead53](https://github.com/auroral-ui/hexo-plugin-aurora/commit/b9ead535d1c12ce01171d062a990fb37f883c464))
+* add new achieves API with pagination ([e60e62d](https://github.com/auroral-ui/hexo-plugin-aurora/commit/e60e62dcdfebf41c9f210e5a1702173506a882b9))
+
 # [1.5.0](https://github.com/auroral-ui/hexo-plugin-aurora/compare/v1.4.2...v1.5.0) (2023-08-11)
 
 
