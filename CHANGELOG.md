@@ -1,3 +1,11 @@
+# [1.7.0](https://github.com/auroral-ui/hexo-plugin-aurora/compare/v1.6.0...v1.7.0) (2023-08-18)
+
+
+### Features
+
+* add feature to use uid as slug ([d5607b2](https://github.com/auroral-ui/hexo-plugin-aurora/commit/d5607b261dcb5561b4def28035da488555db82a6))
+* now sort tags in decending order ([b08c750](https://github.com/auroral-ui/hexo-plugin-aurora/commit/b08c750dafff3df498c721731634eb2808d55fb2))
+
 # [1.6.0](https://github.com/auroral-ui/hexo-plugin-aurora/compare/v1.5.0...v1.6.0) (2023-08-15)
 
 
