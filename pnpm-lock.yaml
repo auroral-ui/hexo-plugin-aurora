@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  algoliasearch:
+    specifier: ^4.19.1
+    version: 4.19.1
   app-root-path:
     specifier: ^3.1.0
     version: 3.1.0
@@ -20,6 +23,12 @@ dependencies:
   js-yaml:
     specifier: ^4.1.0
     version: 4.1.0
+  shiki:
+    specifier: ^0.14.4
+    version: 0.14.4
+  striptags:
+    specifier: ^3.2.0
+    version: 3.2.0
   truncate-html:
     specifier: ^1.0.4
     version: 1.0.4
@@ -45,6 +54,96 @@ devDependencies:
     version: 21.0.6
 
 packages:
+
+  /@algolia/cache-browser-local-storage@4.19.1:
+    resolution: {integrity: sha512-FYAZWcGsFTTaSAwj9Std8UML3Bu8dyWDncM7Ls8g+58UOe4XYdlgzXWbrIgjaguP63pCCbMoExKr61B+ztK3tw==}
+    dependencies:
+      '@algolia/cache-common': 4.19.1
+    dev: false
+
+  /@algolia/cache-common@4.19.1:
+    resolution: {integrity: sha512-XGghi3l0qA38HiqdoUY+wvGyBsGvKZ6U3vTiMBT4hArhP3fOGLXpIINgMiiGjTe4FVlTa5a/7Zf2bwlIHfRqqg==}
+    dev: false
+
+  /@algolia/cache-in-memory@4.19.1:
+    resolution: {integrity: sha512-+PDWL+XALGvIginigzu8oU6eWw+o76Z8zHbBovWYcrtWOEtinbl7a7UTt3x3lthv+wNuFr/YD1Gf+B+A9V8n5w==}
+    dependencies:
+      '@algolia/cache-common': 4.19.1
+    dev: false
+
+  /@algolia/client-account@4.19.1:
+    resolution: {integrity: sha512-Oy0ritA2k7AMxQ2JwNpfaEcgXEDgeyKu0V7E7xt/ZJRdXfEpZcwp9TOg4TJHC7Ia62gIeT2Y/ynzsxccPw92GA==}
+    dependencies:
+      '@algolia/client-common': 4.19.1
+      '@algolia/client-search': 4.19.1
+      '@algolia/transporter': 4.19.1
+    dev: false
+
+  /@algolia/client-analytics@4.19.1:
+    resolution: {integrity: sha512-5QCq2zmgdZLIQhHqwl55ZvKVpLM3DNWjFI4T+bHr3rGu23ew2bLO4YtyxaZeChmDb85jUdPDouDlCumGfk6wOg==}
+    dependencies:
+      '@algolia/client-common': 4.19.1
+      '@algolia/client-search': 4.19.1
+      '@algolia/requester-common': 4.19.1
+      '@algolia/transporter': 4.19.1
+    dev: false
+
+  /@algolia/client-common@4.19.1:
+    resolution: {integrity: sha512-3kAIVqTcPrjfS389KQvKzliC559x+BDRxtWamVJt8IVp7LGnjq+aVAXg4Xogkur1MUrScTZ59/AaUd5EdpyXgA==}
+    dependencies:
+      '@algolia/requester-common': 4.19.1
+      '@algolia/transporter': 4.19.1
+    dev: false
+
+  /@algolia/client-personalization@4.19.1:
+    resolution: {integrity: sha512-8CWz4/H5FA+krm9HMw2HUQenizC/DxUtsI5oYC0Jxxyce1vsr8cb1aEiSJArQT6IzMynrERif1RVWLac1m36xw==}
+    dependencies:
+      '@algolia/client-common': 4.19.1
+      '@algolia/requester-common': 4.19.1
+      '@algolia/transporter': 4.19.1
+    dev: false
+
+  /@algolia/client-search@4.19.1:
+    resolution: {integrity: sha512-mBecfMFS4N+yK/p0ZbK53vrZbL6OtWMk8YmnOv1i0LXx4pelY8TFhqKoTit3NPVPwoSNN0vdSN9dTu1xr1XOVw==}
+    dependencies:
+      '@algolia/client-common': 4.19.1
+      '@algolia/requester-common': 4.19.1
+      '@algolia/transporter': 4.19.1
+    dev: false
+
+  /@algolia/logger-common@4.19.1:
+    resolution: {integrity: sha512-i6pLPZW/+/YXKis8gpmSiNk1lOmYCmRI6+x6d2Qk1OdfvX051nRVdalRbEcVTpSQX6FQAoyeaui0cUfLYW5Elw==}
+    dev: false
+
+  /@algolia/logger-console@4.19.1:
+    resolution: {integrity: sha512-jj72k9GKb9W0c7TyC3cuZtTr0CngLBLmc8trzZlXdfvQiigpUdvTi1KoWIb2ZMcRBG7Tl8hSb81zEY3zI2RlXg==}
+    dependencies:
+      '@algolia/logger-common': 4.19.1
+    dev: false
+
+  /@algolia/requester-browser-xhr@4.19.1:
+    resolution: {integrity: sha512-09K/+t7lptsweRTueHnSnmPqIxbHMowejAkn9XIcJMLdseS3zl8ObnS5GWea86mu3vy4+8H+ZBKkUN82Zsq/zg==}
+    dependencies:
+      '@algolia/requester-common': 4.19.1
+    dev: false
+
+  /@algolia/requester-common@4.19.1:
+    resolution: {integrity: sha512-BisRkcWVxrDzF1YPhAckmi2CFYK+jdMT60q10d7z3PX+w6fPPukxHRnZwooiTUrzFe50UBmLItGizWHP5bDzVQ==}
+    dev: false
+
+  /@algolia/requester-node-http@4.19.1:
+    resolution: {integrity: sha512-6DK52DHviBHTG2BK/Vv2GIlEw7i+vxm7ypZW0Z7vybGCNDeWzADx+/TmxjkES2h15+FZOqVf/Ja677gePsVItA==}
+    dependencies:
+      '@algolia/requester-common': 4.19.1
+    dev: false
+
+  /@algolia/transporter@4.19.1:
+    resolution: {integrity: sha512-nkpvPWbpuzxo1flEYqNIbGz7xhfhGOKGAZS7tzC+TELgEmi7z99qRyTfNSUlW7LZmB3ACdnqAo+9A9KFBENviQ==}
+    dependencies:
+      '@algolia/cache-common': 4.19.1
+      '@algolia/logger-common': 4.19.1
+      '@algolia/requester-common': 4.19.1
+    dev: false
 
   /@babel/code-frame@7.22.5:
     resolution: {integrity: sha512-Xmwn266vad+6DAqEB2A6V/CcZVp62BbwVmcOJc2RPuwih1kw02TjQvWVWlcKGbBPd+8/0V5DEkOcizRGYsspYQ==}
@@ -650,6 +749,25 @@ packages:
       uri-js: 4.4.1
     dev: true
 
+  /algoliasearch@4.19.1:
+    resolution: {integrity: sha512-IJF5b93b2MgAzcE/tuzW0yOPnuUyRgGAtaPv5UUywXM8kzqfdwZTO4sPJBzoGz1eOy6H9uEchsJsBFTELZSu+g==}
+    dependencies:
+      '@algolia/cache-browser-local-storage': 4.19.1
+      '@algolia/cache-common': 4.19.1
+      '@algolia/cache-in-memory': 4.19.1
+      '@algolia/client-account': 4.19.1
+      '@algolia/client-analytics': 4.19.1
+      '@algolia/client-common': 4.19.1
+      '@algolia/client-personalization': 4.19.1
+      '@algolia/client-search': 4.19.1
+      '@algolia/logger-common': 4.19.1
+      '@algolia/logger-console': 4.19.1
+      '@algolia/requester-browser-xhr': 4.19.1
+      '@algolia/requester-common': 4.19.1
+      '@algolia/requester-node-http': 4.19.1
+      '@algolia/transporter': 4.19.1
+    dev: false
+
   /ansi-escapes@6.2.0:
     resolution: {integrity: sha512-kzRaCqXnpzWs+3z5ABPQiVke+iq0KXkHo8xiWV4RPTi5Yli0l97BEQuhXV1s7+aSU/fu1kUuxgS4MsQ0fRuygw==}
     engines: {node: '>=14.16'}
@@ -661,6 +779,10 @@ packages:
     resolution: {integrity: sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==}
     engines: {node: '>=8'}
     dev: true
+
+  /ansi-sequence-parser@1.1.1:
+    resolution: {integrity: sha512-vJXt3yiaUL4UU546s3rPXlsry/RnM730G1+HkpKE012AN0sx1eOrxSu95oKDIonskeLTijMgqWZ3uDEe3NFvyg==}
+    dev: false
 
   /ansi-styles@3.2.1:
     resolution: {integrity: sha512-VT0ZI6kZRdTh8YyJw3SMbYm/u+NqfsAxEpWO0Pf9sq8/e94WxxOpPKx9FR1FlyCtOVDNOQ+8ntlqFxiRc+r5qA==}
@@ -1682,6 +1804,10 @@ packages:
     resolution: {integrity: sha512-ZClg6AaYvamvYEE82d3Iyd3vSSIjQ+odgjaTzRuO3s7toCdFKczob2i0zCh7JE8kWn17yvAWhUVxvqGwUalsRA==}
     dev: true
 
+  /jsonc-parser@3.2.0:
+    resolution: {integrity: sha512-gfFQZrcTc8CnKXp6Y4/CBT3fTc0OVuDofpre4aEeEpSBPV5X5v4+Vmx+8snU7RLPrNHPKSgLxGo9YuQzz20o+w==}
+    dev: false
+
   /jsonfile@6.1.0:
     resolution: {integrity: sha512-5dgndWOriYSm5cnYaJNhalLNDKOqFwyDB/rr1E9ZsGciGvKPs8R2xYGCacuf3z6K1YKDz182fd+fY3cn3pMqXQ==}
     dependencies:
@@ -2633,6 +2759,15 @@ packages:
     resolution: {integrity: sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==}
     engines: {node: '>=8'}
 
+  /shiki@0.14.4:
+    resolution: {integrity: sha512-IXCRip2IQzKwxArNNq1S+On4KPML3Yyn8Zzs/xRgcgOWIr8ntIK3IKzjFPfjy/7kt9ZMjc+FItfqHRBg8b6tNQ==}
+    dependencies:
+      ansi-sequence-parser: 1.1.1
+      jsonc-parser: 3.2.0
+      vscode-oniguruma: 1.7.0
+      vscode-textmate: 8.0.0
+    dev: false
+
   /signal-exit@3.0.7:
     resolution: {integrity: sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==}
     dev: true
@@ -2759,6 +2894,10 @@ packages:
     resolution: {integrity: sha512-4gB8na07fecVVkOI6Rs4e7T6NOTki5EmL7TUduTs6bu3EdnSycntVJ4re8kgZA+wx9IueI2Y11bfbgwtzuE0KQ==}
     engines: {node: '>=0.10.0'}
     dev: true
+
+  /striptags@3.2.0:
+    resolution: {integrity: sha512-g45ZOGzHDMe2bdYMdIvdAfCQkCTDMGBazSw1ypMowwGIee7ZQ5dU0rBJ8Jqgl+jAKIv4dbeE1jscZq9wid1Tkw==}
+    dev: false
 
   /supports-color@5.5.0:
     resolution: {integrity: sha512-QjVjwdXIt408MIiAqCX4oUKsgU2EqAGzs2Ppkm4aQYbjm+ZEWEcW4SfFNTr4uMNZma0ey4f5lgLrkB0aX0QMow==}
@@ -2969,6 +3108,14 @@ packages:
       spdx-correct: 3.2.0
       spdx-expression-parse: 3.0.1
     dev: true
+
+  /vscode-oniguruma@1.7.0:
+    resolution: {integrity: sha512-L9WMGRfrjOhgHSdOYgCt/yRMsXzLDJSL7BPrOZt73gU0iWO4mpqzqQzOz5srxqTvMBaR0XZTSrVWo4j55Rc6cA==}
+    dev: false
+
+  /vscode-textmate@8.0.0:
+    resolution: {integrity: sha512-AFbieoL7a5LMqcnOF04ji+rpXadgOXnZsxQr//r83kLPr7biP7am3g9zbaZIaBGwBRWeSvoMD4mgPdX3e4NWBg==}
+    dev: false
 
   /webidl-conversions@3.0.1:
     resolution: {integrity: sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ==}
