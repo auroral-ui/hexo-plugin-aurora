@@ -5,6 +5,7 @@ const { throwInfo, throwError } = require('./lib/helpers/utils');
 require('./lib/filters')(hexo);
 require('./lib/generators')(hexo);
 require('./lib/injector')(hexo);
+require('./lib/commands')(hexo);
 
 var themePack;
 
