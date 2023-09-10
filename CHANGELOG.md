@@ -1,3 +1,17 @@
+# [1.8.0](https://github.com/auroral-ui/hexo-plugin-aurora/compare/v1.7.0...v1.8.0) (2023-09-10)
+
+
+### Bug Fixes
+
+* gitalk cdn unpkg link ([a9ec8e0](https://github.com/auroral-ui/hexo-plugin-aurora/commit/a9ec8e0b93253f71c3e08ab04b284978c9a96dcd))
+
+
+### Features
+
+* add algolia search command ([a8ede74](https://github.com/auroral-ui/hexo-plugin-aurora/commit/a8ede7462337893243581991be79bbb22cc44dbc))
+* add shiki code highlight engine replacing prism ([dd066a5](https://github.com/auroral-ui/hexo-plugin-aurora/commit/dd066a5c4c8c62ec8e3929103e690561c95588b1))
+* change all CDN to use unpkg so it auto use latest minor versions ([ea826cc](https://github.com/auroral-ui/hexo-plugin-aurora/commit/ea826cc12dbaf49adf43db153b0fe4da3fb7f269))
+
 # [1.7.0](https://github.com/auroral-ui/hexo-plugin-aurora/compare/v1.6.0...v1.7.0) (2023-08-18)
 
 
