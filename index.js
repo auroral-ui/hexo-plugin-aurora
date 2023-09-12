@@ -2,6 +2,8 @@ const appRoot = require('app-root-path');
 const chalk = require('chalk');
 const pluginPack = require('./package.json');
 const { throwInfo, throwError } = require('./lib/helpers/utils');
+
+require('./lib/highlighter')(hexo);
 require('./lib/filters')(hexo);
 require('./lib/generators')(hexo);
 require('./lib/injector')(hexo);
