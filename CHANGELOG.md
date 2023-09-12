@@ -1,3 +1,10 @@
+## [1.8.1](https://github.com/auroral-ui/hexo-plugin-aurora/compare/v1.8.0...v1.8.1) (2023-09-12)
+
+
+### Bug Fixes
+
+* shiki render cause memory leak ([1abb8f0](https://github.com/auroral-ui/hexo-plugin-aurora/commit/1abb8f09f284fc41e873b4c4ce0fc833e384f59c))
+
 # [1.8.0](https://github.com/auroral-ui/hexo-plugin-aurora/compare/v1.7.0...v1.8.0) (2023-09-10)
 
 
