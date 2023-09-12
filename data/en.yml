@@ -16,4 +16,4 @@ plugins:
   twikoo:
     - <script rel="preload" src="https://unpkg.com/twikoo@^1.6.17/dist/twikoo.all.min.js"></script>
   waline:
-   - <link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css"/>
+    - <link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css"/>
