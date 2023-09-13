@@ -1,3 +1,15 @@
+## [1.8.2](https://github.com/auroral-ui/hexo-plugin-aurora/compare/v1.8.1...v1.8.2) (2023-09-13)
+
+
+### Bug Fixes
+
+* add warning for not configuring site language correctly ([4ad57b7](https://github.com/auroral-ui/hexo-plugin-aurora/commit/4ad57b7097261cacb6c1715a4a4c6425f9d0beca))
+
+
+### Performance Improvements
+
+* improve performance of shiki progress ([6167806](https://github.com/auroral-ui/hexo-plugin-aurora/commit/6167806aa66319b41f4b70857a95595caa2d895e))
+
 ## [1.8.1](https://github.com/auroral-ui/hexo-plugin-aurora/compare/v1.8.0...v1.8.1) (2023-09-12)
 
 
