@@ -1,3 +1,10 @@
+## [1.8.3](https://github.com/auroral-ui/hexo-plugin-aurora/compare/v1.8.2...v1.8.3) (2023-09-16)
+
+
+### Bug Fixes
+
+* code fence lang is undefined cause build fail ([0be169b](https://github.com/auroral-ui/hexo-plugin-aurora/commit/0be169bc24ae4af1e89a6e04edc5be4ee07956c1))
+
 ## [1.8.2](https://github.com/auroral-ui/hexo-plugin-aurora/compare/v1.8.1...v1.8.2) (2023-09-13)
 
 
